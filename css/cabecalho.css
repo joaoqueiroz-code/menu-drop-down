@@ -1,0 +1,39 @@
+.tituloIcon {
+    display: flex;
+
+
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+
+    
+    font-size: 1.6em;
+    justify-content: center;
+
+
+}
+
+.tituloIcon-text {
+    align-self: center;
+    font-style: normal;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: 6em;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 20px 24px 20px;
+
+}
+
+body {
+    overflow-x:hidden;
+    background-color: rgb(77, 77, 77);
+
+}
