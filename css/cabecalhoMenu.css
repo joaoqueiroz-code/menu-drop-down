@@ -1,0 +1,86 @@
+.menuButton {
+    border-radius: 4px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(26, 26, 26);
+    width: 15em;
+    height: 2em;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+}
+
+.menuButton:active {
+    opacity: 0.7;
+
+}
+
+.menu {
+    
+    border-radius: 4px;
+
+    position: absolute;
+
+    top: 7em;
+    right: 1em;
+    display: flex;
+
+    background-color: rgb(26, 26, 26);
+
+    width: 25em;
+    height: 26em;
+    
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(125%);
+
+}
+
+.menu::before {
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    background: rgb(26, 26, 26);
+    right: 20px;
+    top: -10px;
+    transform: rotate(45deg);
+    z-index: -1;
+
+}
+
+
+.menu--open {
+    transform: translateX(0);
+
+}
+
+
+.menuLink{
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    height: 8.67em;
+    width: 25em;
+  
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(255, 255, 255);
+
+}
+
+.menuLink-text {
+    align-self: center;
+
+}
+
+.menuLink-list {
+    list-style: none;
+
+}
+
+.menuLink:hover {
+    background-color: rgb(38, 38, 38);
+
+}
